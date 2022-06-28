@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+dEfOPAJYL9nMwOmTYF2MiK+93J9zrVQoVL7g6qV5vOo8hh966VT2mXrjAfDyHS4x4IqrfiyfBdh+sTJW6CnnA==",
+  "dgSpecHash": "ALsUn2d0vIdDcTRKdmZug11lmFxwpJcQIOLAAgpdxylnHyK5Bj7Fdihp8U/cyY6+pTpvSHNktEq4Gul2dFVuGw==",
   "success": true,
-  "projectFilePath": "/Users/hominhcanh/Projects/Week7/Week7/Week7.csproj",
+  "projectFilePath": "/Users/hominhcanh/Projects/week7/Week7/Week7.csproj",
   "expectedPackageFiles": [
     "/Users/hominhcanh/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/json.net/1.0.33/json.net.1.0.33.nupkg.sha512",
@@ -47,7 +47,6 @@
     "/Users/hominhcanh/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "/Users/hominhcanh/.nuget/packages/stored/2.0.1/stored.2.0.1.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
@@ -66,8 +65,7 @@
     "/Users/hominhcanh/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "/Users/hominhcanh/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
-    "/Users/hominhcanh/.nuget/packages/system.text.json/6.0.5/system.text.json.6.0.5.nupkg.sha512",
+    "/Users/hominhcanh/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
     "/Users/hominhcanh/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []

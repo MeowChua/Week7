@@ -10,3 +10,15 @@
 /Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/refint/shared.dll
 /Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.pdb
 /Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/ref/shared.dll
+/Users/hominhcanh/Downloads/week7-master/shared/bin/Debug/net6.0/shared.deps.json
+/Users/hominhcanh/Downloads/week7-master/shared/bin/Debug/net6.0/shared.dll
+/Users/hominhcanh/Downloads/week7-master/shared/bin/Debug/net6.0/shared.pdb
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.csproj.AssemblyReference.cache
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.AssemblyInfoInputs.cache
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.AssemblyInfo.cs
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.csproj.CoreCompileInputs.cache
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.dll
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/refint/shared.dll
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/shared.pdb
+/Users/hominhcanh/Downloads/week7-master/shared/obj/Debug/net6.0/ref/shared.dll

@@ -91,10 +91,8 @@ namespace front.Pages
             }
 
         };
-        public List<Product> DBProduct = new List<Product>();
         public void OnGet()
         {
-            
         }
     }
 }

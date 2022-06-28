@@ -78,5 +78,6 @@
 /Users/hominhcanh/Projects/week7/week7/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/hominhcanh/Projects/week7/week7/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/hominhcanh/Projects/week7/week7/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
-/Users/hominhcanh/Projects/Week7/week7/bin/Debug/net6.0/System.Text.Json.dll
-/Users/hominhcanh/Projects/Week7/week7/bin/Debug/net6.0/Stored.dll
+/Users/hominhcanh/Downloads/week7-master/week7/obj/Debug/net6.0/Week7.dll
+/Users/hominhcanh/Downloads/week7-master/week7/obj/Debug/net6.0/refint/Week7.dll
+/Users/hominhcanh/Downloads/week7-master/week7/obj/Debug/net6.0/Week7.pdb

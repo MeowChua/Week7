@@ -2,16 +2,21 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Week7 PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="front/Services/AddressService/AddressService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="week7/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="Week7/Controllers/ProductsController.cs" Line="142" Column="6" />
-      <File FileName="front/Services/AddressService/AddressService.cs" Line="29" Column="1" />
-      <File FileName="front/Services/AddressService/IAddressService.cs" Line="3" Column="17" />
+      <File FileName="Week7/Controllers/ProductsController.cs" Line="110" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Week7" expanded="True">
+            <Node name="front" expanded="True">
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True">
+                  <Node name="anh4.jpg" selected="True" />
+                </Node>
+              </Node>
+            </Node>
             <Node name="Week7" expanded="True">
               <Node name="Controllers" expanded="True" />
             </Node>

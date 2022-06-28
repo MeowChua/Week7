@@ -4,13 +4,13 @@ using shared;
 
 namespace Week7.Data
 {
-    public class DataContext : DbContext
-    {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
-        {
+	public class DataContext : DbContext
+	{
 
-        }
+        public DataContext(DbContextOptions options) : base(options)
+		{
 
+		}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CartItem>()
@@ -265,7 +265,6 @@ namespace Week7.Data
                 }
             );
         }
-
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }

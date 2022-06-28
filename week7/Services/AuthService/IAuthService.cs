@@ -11,6 +11,7 @@ namespace Week7.Services.AuthService
         int GetUserId();
         string GetUserEmail();
         Task<User> GetUserByEmail(string email);
-        Task Register(front.Models.User user, string password);
+
+
     }
 }

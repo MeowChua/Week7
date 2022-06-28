@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hominhcanh/Projects/Week7/Shared/Shared.csproj": {}
+    "/Users/hominhcanh/Projects/week7/shared/shared.csproj": {}
   },
   "projects": {
-    "/Users/hominhcanh/Projects/Week7/Shared/Shared.csproj": {
+    "/Users/hominhcanh/Projects/week7/shared/shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hominhcanh/Projects/Week7/Shared/Shared.csproj",
-        "projectName": "Shared",
-        "projectPath": "/Users/hominhcanh/Projects/Week7/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/hominhcanh/Projects/week7/shared/shared.csproj",
+        "projectName": "shared",
+        "projectPath": "/Users/hominhcanh/Projects/week7/shared/shared.csproj",
         "packagesPath": "/Users/hominhcanh/.nuget/packages/",
-        "outputPath": "/Users/hominhcanh/Projects/Week7/Shared/obj/",
+        "outputPath": "/Users/hominhcanh/Projects/week7/shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hominhcanh/.nuget/NuGet/NuGet.Config"
@@ -50,25 +50,9 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Analyzers": {
-              "target": "Package",
-              "version": "[6.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.6, )"
-            },
             "Microsoft.Net.Http.Headers": {
               "target": "Package",
               "version": "[2.2.8, )"
-            },
-            "System.Text.Json": {
-              "target": "Package",
-              "version": "[6.0.5, )"
             }
           },
           "imports": [

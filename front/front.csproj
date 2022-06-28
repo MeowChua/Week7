@@ -7,19 +7,51 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Microsoft.EntityFrameworkCore.Analyzers" />
-    <None Remove="Microsoft.EntityFrameworkCore" />
-    <None Remove="System.Text.Json" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="Json.Net" />
+    <None Remove="Views\Products\" />
+    <None Remove="Views\Login\" />
+    <None Remove="Views\Cart\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Microsoft.Net.Http.Headers" />
+    <None Remove="Microsoft.AspNetCore.Http" />
+    <None Remove="Connect\" />
+<<<<<<< HEAD
+=======
+    <None Remove="Pages\" />
+    <None Remove="Data\" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
-    <None Remove="Newtonsoft.Json" />
-    <None Remove="Stored" />
+>>>>>>> 1c5c65e (Initial commit)
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="6.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
-    <PackageReference Include="System.Text.Json" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.6" />
+    <PackageReference Include="Json.Net" Version="1.0.33" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.6" />
+    <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+<<<<<<< HEAD
+=======
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Stored" Version="2.0.1" />
+>>>>>>> 1c5c65e (Initial commit)
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\Products\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Connect\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Pages\" />
+    <Folder Include="Data\" />
+>>>>>>> 1c5c65e (Initial commit)
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\shared\shared.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
