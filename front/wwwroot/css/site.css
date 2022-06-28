@@ -1,0 +1,78 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+img.canhID {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    max-height: 500px;
+}
+h1, h3 {
+    text-align: center;
+}
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.mainSubTitle {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.smallText {
+    text-align: right;
+    color: grey;
+}
+
+.mainSubTitle {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.makeYouOwnDiv {
+    background: grey;
+}
+
+.makeYouOwnText {
+    margin: 100px 0 20px 0;
+    color: white;
+}
+
+.checked {
+    color: orange;
+}
+
+.pizza-img :hover {
+    transform: scale(1.05);
+}

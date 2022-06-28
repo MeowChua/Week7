@@ -1,0 +1,12 @@
+/Users/hominhcanh/Projects/week7/shared/bin/Debug/net6.0/shared.deps.json
+/Users/hominhcanh/Projects/week7/shared/bin/Debug/net6.0/shared.dll
+/Users/hominhcanh/Projects/week7/shared/bin/Debug/net6.0/shared.pdb
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.csproj.AssemblyReference.cache
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.AssemblyInfoInputs.cache
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.AssemblyInfo.cs
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.csproj.CoreCompileInputs.cache
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.dll
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/refint/shared.dll
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/shared.pdb
+/Users/hominhcanh/Projects/week7/shared/obj/Debug/net6.0/ref/shared.dll

@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F7E52428-80F9-4971-931C-108D55B199F9}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Week7 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="front/Services/AddressService/AddressService.cs">
+    <Files>
+      <File FileName="Week7/Controllers/ProductsController.cs" Line="142" Column="6" />
+      <File FileName="front/Services/AddressService/AddressService.cs" Line="29" Column="1" />
+      <File FileName="front/Services/AddressService/IAddressService.cs" Line="3" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Week7" expanded="True">
+            <Node name="Week7" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.week7 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.front PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
