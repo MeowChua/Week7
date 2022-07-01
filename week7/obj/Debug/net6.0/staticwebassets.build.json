@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "Hash": "BuOf2Eyn7Uyj/V5Ajbh9o/rBNcF9DyixyBH81AL1fzM=",
-  "Source": "Week7",
-  "BasePath": "_content/Week7",
+  "Hash": "Gk1vFiVNI4YgJMHECdawxFdcHmIOM/NVpFUtUVE/5dI=",
+  "Source": "week7",
+  "BasePath": "_content/week7",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/front.csproj",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\front.csproj",
       "Version": 2,
       "Source": "front",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier"
     }
   ],
   "DiscoveryPatterns": [
     {
-      "Name": "front/wwwroot",
+      "Name": "front\\wwwroot",
       "Source": "front",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "Pattern": "**"
     },
     {
-      "Name": "Week7/wwwroot",
-      "Source": "Week7",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "Name": "week7\\wwwroot",
+      "Source": "week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/obj/Debug/net6.0/scopedcss/projectbundle/front.bundle.scp.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\front.bundle.scp.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/front",
       "RelativePath": "front.bundle.scp.css",
       "AssetKind": "All",
@@ -50,13 +50,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/hominhcanh/Projects/week7/front/obj/Debug/net6.0/scopedcss/projectbundle/front.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\front.bundle.scp.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/.DS_Store",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\.DS_Store",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -67,13 +67,47 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/.DS_Store"
+      "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "css/bootstrap/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\css\\site.css",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -84,13 +118,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\favicon.ico",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -101,13 +135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1320-x-250---941649759305_img_1320x250_c0e985_fit_center.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1320-x-250---941649759305_img_1320x250_c0e985_fit_center.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1320-x-250---941649759305_img_1320x250_c0e985_fit_center.jpg",
       "AssetKind": "All",
@@ -118,13 +152,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1320-x-250---941649759305_img_1320x250_c0e985_fit_center.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1320-x-250---941649759305_img_1320x250_c0e985_fit_center.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1624872227sulwasooo.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1624872227sulwasooo.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1624872227sulwasooo.jpg",
       "AssetKind": "All",
@@ -135,13 +169,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1624872227sulwasooo.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1624872227sulwasooo.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1639446173415x130_laneige.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1639446173415x130_laneige.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1639446173415x130_laneige.jpg",
       "AssetKind": "All",
@@ -152,13 +186,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1639446173415x130_laneige.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1639446173415x130_laneige.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1640663436415x130_shu uemura.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1640663436415x130_shu uemura.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1640663436415x130_shu uemura.jpg",
       "AssetKind": "All",
@@ -169,13 +203,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1640663436415x130_shu uemura.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1640663436415x130_shu uemura.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1644808614415-x-130---7.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1644808614415-x-130---7.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1644808614415-x-130---7.jpg",
       "AssetKind": "All",
@@ -186,13 +220,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1644808614415-x-130---7.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1644808614415-x-130---7.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1644808708415-x-130---9.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1644808708415-x-130---9.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1644808708415-x-130---9.jpg",
       "AssetKind": "All",
@@ -203,13 +237,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1644808708415-x-130---9.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1644808708415-x-130---9.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1651219906nowfree_2-846x250.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1651219906nowfree_2-846x250.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1651219906nowfree_2-846x250.jpg",
       "AssetKind": "All",
@@ -220,13 +254,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1651219906nowfree_2-846x250.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1651219906nowfree_2-846x250.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/1652436242anessa_415x130.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\1652436242anessa_415x130.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/1652436242anessa_415x130.jpg",
       "AssetKind": "All",
@@ -237,13 +271,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/1652436242anessa_415x130.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\1652436242anessa_415x130.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/anh1.png",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\anh1.png",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/anh1.png",
       "AssetKind": "All",
@@ -254,13 +288,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/anh1.png"
+      "OriginalItemSpec": "wwwroot\\images\\anh1.png"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/anh2.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\anh2.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/anh2.jpg",
       "AssetKind": "All",
@@ -271,13 +305,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/anh2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\anh2.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/anh3.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\anh3.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/anh3.jpg",
       "AssetKind": "All",
@@ -288,13 +322,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/anh3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\anh3.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/anh4.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\anh4.jpg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/anh4.jpg",
       "AssetKind": "All",
@@ -305,13 +339,268 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/anh4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\anh4.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/images/img.jpg",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\canh.jpeg",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/canh.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\canh.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\canhbr.jpg",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/canhbr.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\canhbr.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\im1.jpg",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/im1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\im1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Bolognese.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Bolognese.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Bolognese.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Carbonara.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Carbonara.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Carbonara.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Create.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Create.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Create.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Create.zip",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Create.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Create.zip"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Hawaiian.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Hawaiian.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Hawaiian.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Margerita.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Margerita.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Margerita.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\MeatFeast.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/MeatFeast.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\MeatFeast.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Mushroom.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Mushroom.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Mushroom.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Pepperoni.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Pepperoni.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Pepperoni.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Seafood.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Seafood.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Seafood.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\Pizzas\\Vegetarian.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/Pizzas/Vegetarian.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\Pizzas\\Vegetarian.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\images\\images\\PizzaTime.jpg",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/images/images/PizzaTime.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images\\images\\PizzaTime.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\img.jpg",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "images/img.jpg",
       "AssetKind": "All",
@@ -322,13 +611,200 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/img.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\img.jpg"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/js/site.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Bolognese.png",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Bolognese.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Bolognese.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Carbonara.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Carbonara.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Carbonara.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Create.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Create.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Create.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Create.zip",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Create.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Create.zip"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Hawaiian.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Hawaiian.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Hawaiian.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Margerita.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Margerita.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Margerita.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\MeatFeast.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/MeatFeast.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\MeatFeast.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Mushroom.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Mushroom.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Mushroom.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Pepperoni.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Pepperoni.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Pepperoni.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Seafood.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Seafood.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Seafood.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\images\\Pizzas\\Vegetarian.png",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
+      "BasePath": "_content/front",
+      "RelativePath": "images/Pizzas/Vegetarian.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizzas\\Vegetarian.png"
+    },
+    {
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\js\\site.js",
+      "SourceId": "front",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -339,13 +815,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -356,13 +832,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -373,13 +849,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -390,13 +866,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -407,13 +883,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -424,13 +900,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -441,13 +917,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -458,13 +934,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -475,13 +951,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -492,13 +968,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -509,13 +985,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -526,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -543,13 +1019,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -560,13 +1036,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -577,13 +1053,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -594,13 +1070,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -611,13 +1087,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -628,13 +1104,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -645,13 +1121,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -662,13 +1138,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -679,13 +1155,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -696,13 +1172,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -713,13 +1189,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -730,13 +1206,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -747,13 +1223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -764,13 +1240,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -781,13 +1257,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -798,13 +1274,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -815,13 +1291,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -832,13 +1308,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -849,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -866,13 +1342,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -883,13 +1359,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -900,13 +1376,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -917,13 +1393,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -934,13 +1410,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -951,13 +1427,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -968,13 +1444,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -985,13 +1461,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1002,13 +1478,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1019,13 +1495,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1036,13 +1512,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1053,13 +1529,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1070,13 +1546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1087,13 +1563,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1104,13 +1580,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1121,13 +1597,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1138,13 +1614,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1155,13 +1631,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1172,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1189,13 +1665,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1206,13 +1682,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1223,13 +1699,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1240,13 +1716,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1257,13 +1733,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1274,13 +1750,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1291,13 +1767,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/front/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "front",
       "SourceType": "Project",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/front/wwwroot/",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\front\\wwwroot\\",
       "BasePath": "_content/front",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1308,15 +1784,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/obj/Debug/net6.0/scopedcss/bundle/Week7.styles.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\obj\\Debug\\net6.0\\scopedcss\\bundle\\week7.styles.css",
+      "SourceId": "week7",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/week7/obj/Debug/net6.0/scopedcss/bundle/",
-      "BasePath": "_content/Week7",
-      "RelativePath": "Week7.styles.css",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/week7",
+      "RelativePath": "week7.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -1325,15 +1801,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/hominhcanh/Projects/week7/week7/obj/Debug/net6.0/scopedcss/bundle/Week7.styles.css"
+      "OriginalItemSpec": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\obj\\Debug\\net6.0\\scopedcss\\bundle\\week7.styles.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/obj/Debug/net6.0/scopedcss/projectbundle/Week7.bundle.scp.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\week7.bundle.scp.css",
+      "SourceId": "week7",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/week7/obj/Debug/net6.0/scopedcss/projectbundle/",
-      "BasePath": "_content/Week7",
-      "RelativePath": "Week7.bundle.scp.css",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/week7",
+      "RelativePath": "week7.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -1342,14 +1818,14 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/hominhcanh/Projects/week7/week7/obj/Debug/net6.0/scopedcss/projectbundle/Week7.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\week7.bundle.scp.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/.DS_Store",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\.DS_Store",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1359,14 +1835,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/.DS_Store"
+      "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/css/site.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\css\\site.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1376,14 +1852,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/favicon.ico",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\favicon.ico",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1393,14 +1869,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/js/site.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\js\\site.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1410,14 +1886,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1427,14 +1903,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1444,14 +1920,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1461,14 +1937,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1478,14 +1954,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1495,14 +1971,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1512,14 +1988,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1529,14 +2005,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1546,14 +2022,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1563,14 +2039,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1580,14 +2056,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1597,14 +2073,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1614,14 +2090,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1631,14 +2107,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1648,14 +2124,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1665,14 +2141,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1682,14 +2158,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1699,14 +2175,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1716,14 +2192,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1733,14 +2209,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1750,14 +2226,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1767,14 +2243,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1784,14 +2260,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1801,14 +2277,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1818,14 +2294,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1835,14 +2311,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1852,14 +2328,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1869,14 +2345,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1886,14 +2362,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1903,14 +2379,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1920,14 +2396,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1937,14 +2413,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1954,14 +2430,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1971,14 +2447,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1988,14 +2464,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2005,14 +2481,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2022,14 +2498,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2039,14 +2515,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2056,14 +2532,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2073,14 +2549,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2090,14 +2566,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2107,14 +2583,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2124,14 +2600,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2141,14 +2617,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2158,14 +2634,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/bootstrap/LICENSE",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2175,14 +2651,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2192,14 +2668,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2209,14 +2685,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2226,14 +2702,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2243,14 +2719,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2260,14 +2736,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2277,14 +2753,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2294,14 +2770,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery-validation/LICENSE.md",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2311,14 +2787,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery/dist/jquery.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2328,14 +2804,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery/dist/jquery.min.js",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2345,14 +2821,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery/dist/jquery.min.map",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2362,14 +2838,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/Users/hominhcanh/Projects/week7/week7/wwwroot/lib/jquery/LICENSE.txt",
-      "SourceId": "Week7",
+      "Identity": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "week7",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/hominhcanh/Projects/week7/Week7/wwwroot/",
-      "BasePath": "_content/Week7",
+      "ContentRoot": "C:\\Users\\nguyen\\Downloads\\week7\\week7\\week7\\wwwroot\\",
+      "BasePath": "_content/week7",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2379,7 +2855,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

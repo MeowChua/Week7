@@ -3,59 +3,164 @@
 @{
 }
 <div class=" text-center">
-    <div class="maintext">
-        <h1 class=" display-4">Hello Hello</h1>
-        
-    </div>
     <div class="container">
         <div class="row">
             <div class=" col-12 mb-5 mt-5">
                 <div class="w-100 row makeYourOwnDiv">
-                    <div class="col-4">
-                        <img src="~/images/Pizzas/Create.png" class ="w-100"/>
+                    <div class="col-4 noidung">
+                        <img src="~/images/canhbr.jpg" class="w-50" />
                     </div>
                     <div class="col-8 alig-items-center">
-                        <div class ="algin-middle makeYourOwnText">
+                        <div class="algin-middle makeYourOwnText">
                             <h3 style="text-align:left;">Create your own</h3>
-                            <p style="text-align:left;">Make your own pizza with our pizza </p>
+                            <p style="text-align:left;">Color happy </p>
                             <a class=" btn btn-primary" style="float:left" asp-area="" asp-page="Forms/CustomPizza">Get It</a>
                             <form action="/action_page.php">
-                            <label for="gsearch">Search Pizza:</label>
-                            <input type="search" id="gsearch" name="gsearch">
-                            <input type="submit" >
-                            
+                                <label for="gsearch">Search Pizza:</label>
+                                <input type="search" id="gsearch" name="gsearch">
+                                <input type="submit">
+
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-             @foreach (var pizza in Model.fakePizzaDB)
-             {
-                var imagePath = "~/images/Pizzas/" + (pizza.ImageTitle + ".png"); 
-                <div class="col-4 mb-5" >
-                    <img src="@imagePath" style="width: 18rem;
-                    heigth: 18rem;
-                    " class="m-100" asp-append-version="true" />
+
+             <div class="img_ng">
+                        <img src="~/images/anh2.jpg" class="w-100" />
+                    </div>
                     <br/>
-                    <h5 class="products"> @pizza.PizzaName </h5>
-                     <h5 class="rating">
-                         <!--  <input type="hidden" class="rating" value="4"/> -->
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-regular fa-star checked"></i>
-                    </h5>
-                    <h5 class="price"> @pizza.FinalPrice $</h5>
-                    
-                    <a class="btn alert-primary mt-1" asp-area="Checkout/Checkout"
-                    asp-route-ImageTitle="@pizza.ImageTitle"
-                    asp-route-PizzaPrice="@pizza.FinalPrice"
-                    >Get This Pizza</a>
-                    <br/>
+                    <div class="row">
+                        @foreach (var product in Model.DBProduct)
+            {
+                /*
+                var imagePath ="~/images/Pizzas/" + (pizza.ImageTitle + ".png");
+                */
+                @if (product.Featured)
+                {
+                    <div class="col-4 mb-5">
+
+                        <img src="@product.ImageUrl" class="img-products" style="width: 18rem;
+                         heigth: 18rem;
+                        " class="m-100" asp-append-version="true" />
+                        <br />
+                        <h5 class="products"> @product.Title </h5>
+                        
+                            <!--  <input type="hidden" class="rating" value="4"/>
+                             -->
+                            <h5 class="rating">
+                            @foreach(var ra in @Model.points)
+                            {
+                                @if(ra.ProductId==product.Id)
+                                    {
+                                        @for(var i =0; i < 5; i++)
+                                        {
+                                            if (i <= ra.points)
+                                            {
+                                                <i class="fa-solid fa-star checked"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fa-solid fa-star "></i>
+                                            }
+                                        }
+                                    }
+
+                            }
+                            </h5>
+                        <!--<h5 class="price">  VND</h5> -->
+                        @foreach(var pb in Model.DBProductVariants)
+                            {
+                              
+                            @if (pb.ProductId==product.Id)
+                            {
+                            <h5 class="price">
+                                @pb.Price VND
+                                    </h5>
+                                    break; 
+                                }
+                            }
+                        <a class="btn alert-primary mt-1 img-products" asp-area="" asp-page="/ProductDetail"
+                       
+                         
+                       
+                         asp-route-ProductID="@product.Id">Get This</a>
+                    <br />
+
 
                 </div>
-             }
+                }
+            }
+                    </div>
+                     <div class="img_ng">
+                        <img src="~/images/anh4.jpg" class="w-100" />
+                    </div>
+            
+                    <div class="row">
+                        @foreach (var product in Model.DBProduct)
+            {
+                /*
+                var imagePath ="~/images/Pizzas/" + (pizza.ImageTitle + ".png");
+                */
+                @if (product.CategoryId == 1)
+                {
+                    <div class="col-4 mb-5">
+
+                        <img src="@product.ImageUrl" class="img-products" style="width: 18rem;
+                         heigth: 18rem;
+                        " class="m-100" asp-append-version="true" />
+                        <br />
+                        <h5 class="products"> @product.Title </h5>
+                        <h5 class="rating">
+                            @foreach(var ra in @Model.points)
+                            {
+                                @if(ra.ProductId==product.Id)
+                                    {
+                                        @for(var i =0; i < 5; i++)
+                                        {
+                                            if (i <= ra.points)
+                                            {
+                                                <i class="fa-solid fa-star checked"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fa-solid fa-star "></i>
+                                            }
+                                        }
+                                    }
+
+                            }
+                            </h5>
+                        <!--<h5 class="price">  VND</h5> -->
+                        
+                            @foreach(var pb in Model.DBProductVariants)
+                            {
+                              
+                            @if (pb.ProductId==product.Id)
+                            {
+                            <h5 class="price">
+                                @pb.Price VND
+                                    </h5>
+                                    
+                                    break; 
+                                }
+                            }
+                            <a class="btn alert-primary mt-1 img-products " asp-area="" asp-page="/ProductDetail"
+                       
+                         
+                       
+                            asp-route-ProductID="@product.Id" >Get This</a>
+                            
+                            <br />
+
+
+                </div>
+                }
+            }
+                    </div>
+                    
+            
+
         </div>
     </div>
 </div>

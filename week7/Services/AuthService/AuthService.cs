@@ -25,9 +25,9 @@ namespace Week7.Services.AuthService
 
 
 
-        
 
-       
+
+
 
         public string GetUserEmail() => _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
 
@@ -162,6 +162,9 @@ namespace Week7.Services.AuthService
             return int.Parse(_httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier));
         }
 
-     
+        public Task Register(front.Models.User user, string password)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

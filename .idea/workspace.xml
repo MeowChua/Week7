@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622e462e-b6c4-46a7-8882-c723dabd0c66" name="Changes" comment="git commit">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Create.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Create1.xml" beforeDir="false" />
+    <list default="true" id="622e462e-b6c4-46a7-8882-c723dabd0c66" name="Changes" comment="git add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,6 +87,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
     <MESSAGE value="git commit -a -m &quot;cap nhat API va lop do data&quot;" />
     <MESSAGE value="git commit --amend -m &quot;Thông tin về commit&quot;" />

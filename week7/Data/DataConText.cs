@@ -1,16 +1,17 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using shared;
+using Shared;
 
 namespace Week7.Data
 {
-	public class DataContext : DbContext
-	{
+    public class DataContext : DbContext
+    {
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        {
 
-        public DataContext(DbContextOptions options) : base(options)
-		{
+        }
 
-		}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CartItem>()
@@ -265,6 +266,7 @@ namespace Week7.Data
                 }
             );
         }
+
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }
@@ -275,6 +277,7 @@ namespace Week7.Data
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<Rating> Rating { get; set; }
     }
 }
 

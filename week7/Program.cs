@@ -26,7 +26,7 @@ builder.
 */
 builder.
     Services.AddDbContext<DataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ContactsApiConnectionString")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

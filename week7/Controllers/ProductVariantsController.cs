@@ -28,9 +28,9 @@ namespace Week7.Controllers
         }
         [HttpGet]
         [Route("{id:Int}")]
-        public IActionResult GetProductVariantById([FromRoute] int id)
+        public async Task< IActionResult> GetProductVariantById([FromRoute] int id)
         {
-            var pd = dt.ProductVariants.Find(id);
+            var pd =await dt.ProductVariants.FindAsync(id);
             if (pd == null)
             {
                 return NotFound();
