@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shared
+namespace Projects.Shared
 {
     public class Product
     {
@@ -26,6 +26,5 @@ namespace shared
         public bool Editing { get; set; } = false;
         [NotMapped]
         public bool IsNew { get; set; } = false;
-
     }
 }
