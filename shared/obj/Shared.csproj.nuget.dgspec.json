@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguyen\\source\\repos\\Projects\\Shared\\Shared.csproj": {}
+    "/Users/hominhcanh/Downloads/ABC/Shared/Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguyen\\source\\repos\\Projects\\Shared\\Shared.csproj": {
+    "/Users/hominhcanh/Downloads/ABC/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyen\\source\\repos\\Projects\\Shared\\Shared.csproj",
+        "projectUniqueName": "/Users/hominhcanh/Downloads/ABC/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\nguyen\\source\\repos\\Projects\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyen\\source\\repos\\Projects\\Shared\\obj\\",
+        "projectPath": "/Users/hominhcanh/Downloads/ABC/Shared/Shared.csproj",
+        "packagesPath": "/Users/hominhcanh/.nuget/packages/",
+        "outputPath": "/Users/hominhcanh/Downloads/ABC/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/hominhcanh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

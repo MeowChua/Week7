@@ -4,7 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="622e462e-b6c4-46a7-8882-c723dabd0c66" name="Changes" comment="git add" />
+    <list default="true" id="622e462e-b6c4-46a7-8882-c723dabd0c66" name="Changes" comment="git add">
+      <change afterPath="$PROJECT_DIR$/shared/BlazorEcommerce.Shared.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/Point.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/bin/Debug/net6.0/Shared.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/Shared.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/API_Back.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/API_Back.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/API_Back.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/API_Back.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/API_Back.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/API_Back.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/API_Back.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/Debug/net6.0/API_Back.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Back/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/API_Back/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/Pages/Detail/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/Pages/Detail/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/WEB_Front.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/WEB_Front.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/bin/Debug/net6.0/WEB_Front.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/WEB_Front.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/ref/WEB_Front.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/ref/WEB_Front.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/refint/WEB_Front.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/refint/WEB_Front.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/scopedcss/bundle/WEB_Front.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/scopedcss/bundle/WEB_Front.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/scopedcss/projectbundle/WEB_Front.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/scopedcss/projectbundle/WEB_Front.bundle.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/WEB_Front.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/WEB_Front.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/WEB_Front.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/WEB_Front.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_Front/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_Front/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/bin/Debug/net6.0/shared.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/shared/bin/Debug/net6.0/shared.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/bin/Debug/net6.0/shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/shared/bin/Debug/net6.0/shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/bin/Debug/net6.0/shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/shared/bin/Debug/net6.0/shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Debug/net6.0/shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Shared.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Shared.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/Shared.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/Shared.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/project.nuget.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656779324125</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="git add">
+      <created>1656950680545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656950680545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

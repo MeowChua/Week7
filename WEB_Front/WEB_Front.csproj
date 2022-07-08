@@ -12,6 +12,12 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Pages\Shared\Components\" />
+    <Folder Include="Pages\Shared\Components\Products\" />
+    <Folder Include="Pages\Shared\Components\Menu\" />
+    <Folder Include="Pages\Shared\Components\Discription\" />
+    <Folder Include="Pages\Shared\Components\Select\" />
+    <Folder Include="Pages\ShopGird\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,4 +31,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Pages\Shared\Components\" />
+    <None Remove="Pages\Shared\Components\Products\" />
+    <None Remove="Pages\Shared\Components\Menu\" />
+    <None Remove="Pages\Shared\Components\Discription\" />
+    <None Remove="Pages\Shared\Components\Select\" />
+    <None Remove="Pages\ShopGird\" />
+  </ItemGroup>
 </Project>

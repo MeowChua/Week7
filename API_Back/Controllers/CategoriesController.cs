@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using API_Back.Data;
+using Projects.Shared;
+using API_Back.Models;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,16 +22,36 @@ namespace API_Back.Controllers
             this.dt = dt;
         }
         [HttpGet]
-        public IActionResult GetCategories()
+        public async Task<IActionResult> GetCategories()
         {
-            return Ok(dt.Categories.ToList());
+            return Ok(await dt.Categories.ToArrayAsync());
             //return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddCategories(AddCategoriesRequest add)
+        {
+
+            var ratg = new Category()
+            {
+                Id = add.Id,
+                Name = add.Name,
+                Url = add.Url,
+                Visible = add.Visible,
+                Deleted = add.Deleted,
+
+                Editing = add.Editing,
+                IsNew = add.IsNew
+
+            };
+            await dt.Categories.AddAsync(ratg);
+            await dt.SaveChangesAsync();
+            return Ok(ratg);
         }
         [HttpGet]
         [Route("{id:Int}")]
-        public IActionResult GetCategoriesById([FromRoute] int id)
+        public async Task<IActionResult> GetCategoriesById([FromRoute] int id)
         {
-            var pd = dt.Categories.Find(id);
+            var pd =await dt.Categories.FindAsync(id);
             if (pd == null)
             {
                 return NotFound();
@@ -39,17 +62,18 @@ namespace API_Back.Controllers
         }
         [HttpDelete]
         [Route("{id:Int}")]
-        public IActionResult Delete([FromRoute] int id)
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
-            var ar = dt.Categories.Find(id);
+            var ar =await dt.Categories.FindAsync(id);
             if (ar != null)
             {
                 dt.Remove(ar);
-                dt.SaveChanges();
+                await dt.SaveChangesAsync();
                 return Ok(ar);
             }
             return NotFound();
         }
+        
 
     }
 }

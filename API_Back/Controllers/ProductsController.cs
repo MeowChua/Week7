@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 using API_Back.Data;
 using API_Back.Models;
+using Projects.Shared;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -44,102 +45,43 @@ namespace API_Back.Controllers
         }
         [HttpDelete]
         [Route("{id:Int}")]
-        public IActionResult Delete([FromRoute] int id)
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
-            var ar = dt.Products.Find(id);
+            var ar = await dt.Products.FindAsync(id);
             if (ar != null)
             {
                 dt.Remove(ar);
-                dt.SaveChanges();
+                dt.SaveChangesAsync();
                 return Ok(ar);
             }
             return NotFound();
         }
+        [HttpPost]
+        public async Task<IActionResult> AddProductsAsync(AddProductsRequest add)
+        {
 
+            var pro = new Product()
+            {
+                Id = add.Id,
+                Title = add.Title,
+                Description=add.Description,
+                ImageUrl=add.ImageUrl,
+                Images=add.Images,
+                Category=add.Category,
+                CategoryId=add.CategoryId,
+                Featured=add.Featured,
+                Variants=add.Variants,
+                Visible=add.Visible,
+                Deleted=add.Deleted,
+                Editing=add.Editing,
+                IsNew=add.IsNew 
+
+            };
+            await dt.Products.AddAsync(pro);
+            await dt.SaveChangesAsync();
+            return Ok(pro);
+        }
     }
-    /*
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductController : ControllerBase
-    {
-        private readonly IProductService _productService;
-
-        public ProductController(IProductService productService)
-        {
-            _productService = productService;
-        }
-
-        [HttpGet("admin"), Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts()
-        {
-            var result = await _productService.GetAdminProducts();
-            return Ok(result);
-        }
-
-        [HttpPost, Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ServiceResponse<Product>>> CreateProduct(Product product)
-        {
-            var result = await _productService.CreateProduct(product);
-            return Ok(result);
-        }
-
-        [HttpPut, Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ServiceResponse<Product>>> UpdateProduct(Product product)
-        {
-            var result = await _productService.UpdateProduct(product);
-            return Ok(result);
-        }
-
-        [HttpDelete("{id}"), Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ServiceResponse<bool>>> DeleteProduct(int id)
-        {
-            var result = await _productService.DeleteProduct(id);
-            return Ok(result);
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProducts()
-        {
-            var result = await _productService.GetProductsAsync();
-            return Ok(result);
-        }
-
-        [HttpGet("{productId}")]
-        public async Task<ActionResult<ServiceResponse<Product>>> GetProduct(int productId)
-        {
-            var result = await _productService.GetProductAsync(productId);
-            return Ok(result);
-        }
-
-        [HttpGet("category/{categoryUrl}")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProductsByCategory(string categoryUrl)
-        {
-            var result = await _productService.GetProductsByCategory(categoryUrl);
-            return Ok(result);
-        }
-
-        [HttpGet("search/{searchText}/{page}")]
-        public async Task<ActionResult<ServiceResponse<ProductSearchResult>>> SearchProducts(string searchText, int page = 1)
-        {
-            var result = await _productService.SearchProducts(searchText, page);
-            return Ok(result);
-        }
-
-        [HttpGet("searchsuggestions/{searchText}")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProductSearchSuggestions(string searchText)
-        {
-            var result = await _productService.GetProductSearchSuggestions(searchText);
-            return Ok(result);
-        }
-
-        [HttpGet("featured")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetFeaturedProducts()
-        {
-            var result = await _productService.GetFeaturedProducts();
-            return Ok(result);
-        }
     
-    }
-    */
 }
 
