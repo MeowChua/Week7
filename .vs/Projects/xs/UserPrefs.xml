@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{DFF55BE7-FF6E-4038-8AAB-385B9189B27F}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WEB__Front PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API_Back/appsettings.json">
+    <Files>
+      <File FileName="API_Back/appsettings.json" Line="7" Column="33" />
+      <File FileName="WEB_Front/Pages/Detail/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="WEB_Front/Pages/Detail/Index.cshtml" Line="322" Column="38" />
+      <File FileName="API_Back/Program.cs" Line="30" Column="1" />
+      <File FileName="WEB_Front/Data/GetData.cs" Line="17" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Projects" expanded="True">
+            <Node name="API_Back" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+            <Node name="WEB_Front" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API__Back PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
