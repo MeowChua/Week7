@@ -79,6 +79,29 @@ namespace WEB_Front.Data
             }
             return Ps;
         }
+        //GetListCategories
+        public async Task<List<Category>> GetCategories(List<Category> DBCategories)
+        {
+            var DBcategory = new List<Category>();
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(s);
+            var res = await client.GetAsync("api/Categories/");
+            var result = res.Content.ReadAsStringAsync().Result;
+            DBcategory = JsonConvert.DeserializeObject<List<Category>>(result);
+            return DBcategory;
+        }
+
+        //GetListCategoriesByID
+        public async Task<Category> GetCategoriesbyId(int ID)
+        {
+            var DBcategory = new Category();
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(s);
+            var res = await client.GetAsync("api/Categories/" + ID);
+            var result = res.Content.ReadAsStringAsync().Result;
+            DBcategory = JsonConvert.DeserializeObject<Category>(result);
+            return DBcategory;
+        }
 
     }
 }
