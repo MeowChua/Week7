@@ -40,10 +40,10 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                                <li><a href="#">Mỹ Phẩm High-Eng</a></li>
-                                <li><a href="#">Chăm sóc cơ thể</a></li>
-                                <li><a href="#">Chăm sóc da mặt</a></li>
-                                <li><a href="#">Trang điểm</a></li>
+                                <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=1>Mỹ Phẩm High-Eng</a></li>
+                                <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=2>Chăm sóc cơ thể</a></li>
+                                <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=4>Chăm sóc da mặt</a></li>
+                                <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=3>Trang điểm</a></li>
                          </ul>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">ADD TO CARD</a>
+                        <a asp-page="/Cart/Index" asp-route-ProductID=@Model.tmpID class="primary-btn">ADD TO CARD</a>
                         <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         <ul>
                             <li><b>Availability</b> <span>In Stock</span></li>
@@ -173,9 +173,9 @@
                             <li>
                                 <b>Share on</b>
                                 <div class="share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/HmMeow0907/"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/_h.mm.c_/"><i class="fa fa-instagram"></i></a>
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                             </li>
@@ -198,66 +198,35 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                @foreach (var product in Model.DBProduct_tmp)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="product__item">
+                            <div class="product__item__pic set-bg" data-setbg="@product.ImageUrl">
+                                <ul class="product__item__pic__hover">
+                                    <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-heart"></i></a></li>
+                                    <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-retweet"></i></a></li>
+                                    <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="product__item__text">
+                                <h6><a href="#">@product.Title</a></h6>
+
+                                @foreach (var variant in Model.DBProductVariants)
+                                {
+                                    @if (product.Id == variant.ProductId)
+                                        {
+
+                                        <h5>@variant.Price</h5>
+                                        break;
+                                    }
+                                }
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/product-7.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
-                        </div>
-                    </div>
-                </div>
+                }
+
+
             </div>
         </div>
     </section>

@@ -45,13 +45,13 @@ namespace API_Back.Controllers
         }
         [HttpDelete]
         [Route("{id:Int}")]
-        public async Task<IActionResult> Delete([FromRoute] int id)
+        public IActionResult Delete([FromRoute] int id)
         {
-            var ar = await dt.Products.FindAsync(id);
+            var ar = dt.Products.Find(id);
             if (ar != null)
             {
                 dt.Remove(ar);
-                dt.SaveChangesAsync();
+                dt.SaveChanges();
                 return Ok(ar);
             }
             return NotFound();
@@ -64,23 +64,49 @@ namespace API_Back.Controllers
             {
                 Id = add.Id,
                 Title = add.Title,
-                Description=add.Description,
-                ImageUrl=add.ImageUrl,
-                Images=add.Images,
-                Category=add.Category,
-                CategoryId=add.CategoryId,
-                Featured=add.Featured,
-                Variants=add.Variants,
-                Visible=add.Visible,
-                Deleted=add.Deleted,
-                Editing=add.Editing,
-                IsNew=add.IsNew 
+                Description = add.Description,
+                ImageUrl = add.ImageUrl,
+                Images = add.Images,
+                Category = add.Category,
+                CategoryId = add.CategoryId,
+                Featured = add.Featured,
+                Variants = add.Variants,
+                Visible = add.Visible,
+                Deleted = add.Deleted,
+                Editing = add.Editing,
+                IsNew = add.IsNew
 
             };
             await dt.Products.AddAsync(pro);
             await dt.SaveChangesAsync();
             return Ok(pro);
         }
+        [HttpPut]
+        [Route("{Id:int}")]
+        public async Task<IActionResult> updateProject([FromRoute] int Id, UpdateProductsRequest udp)
+        {
+            var products = await dt.Products.FindAsync(Id);
+                if (products != null)
+                {
+                //products.Id = udp.Id;
+                products.Title = udp.Title;
+                products.Description=udp.Description;
+                products.ImageUrl=udp.ImageUrl;
+                products.Images = udp.Images;
+                products.Category = udp.Category;
+                products.CategoryId = udp.CategoryId;
+                products.Featured = udp.Featured;
+                products.Variants = udp.Variants;
+                products.Visible = udp.Visible;
+                products.Deleted = udp.Deleted;
+                products.Editing = udp.Editing;
+                products.IsNew = udp.IsNew;
+                await dt.SaveChangesAsync();
+                return Ok(products);
+                }
+            return NotFound();
+        }
+
     }
     
 }

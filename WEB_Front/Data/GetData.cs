@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Projects.Shared;
+using Shared;
 
 namespace WEB_Front.Data
 {
@@ -102,6 +103,134 @@ namespace WEB_Front.Data
             DBcategory = JsonConvert.DeserializeObject<Category>(result);
             return DBcategory;
         }
+
+        //GetListProductsbyCategoryID
+        public async Task<List<Product>> GetListProductsbyCategoryID(int id)
+        {
+            var products = new List<Product>();
+            var productsByCategoryID = new List<Product>();
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(s);
+            var res = await client.GetAsync("api/Product");
+            var result = res.Content.ReadAsStringAsync().Result;
+            products = JsonConvert.DeserializeObject<List<Product>>(result);
+
+            foreach (var pb in products)
+            {
+                if (pb.CategoryId == id) {
+                    productsByCategoryID.Add(pb);
+                }
+            }
+            return productsByCategoryID;
+        }
+        //GetListProductsRandomByNumber
+        public async Task<List<Product>> GetListProductsRandomByNumber(int id)
+        {
+            var listTmp = new List<Product>();
+            var Products = new Product();
+            for (int i = 0; i < id; i++) {
+
+                Random rand = new Random();
+                int count = rand.Next(1, 41);
+                Products = await new GetData().GetProductsByIDAsync(count);
+                listTmp.Add(Products);
+            }
+            return listTmp;
+
+        }
+        //GetListCartbyID
+        public async Task<List<Product>> GetListCartbyUserID(int id)
+        {
+            var products = new List<Product>();
+            var cartItems = new List<CartItem>();
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(s);
+            var res = await client.GetAsync("api/Product");
+            var result = res.Content.ReadAsStringAsync().Result;
+            products = JsonConvert.DeserializeObject<List<Product>>(result);
+
+            var resCart = await client.GetAsync("api/CartItems");
+            var resultCart = resCart.Content.ReadAsStringAsync().Result;
+            cartItems = JsonConvert.DeserializeObject<List<CartItem>>(resultCart);
+
+            var listTmp = new List<Product>();
+            foreach (var pb in cartItems)
+            {
+                if (pb.UserId == id)
+                {
+                    foreach (var pro in products)
+                    {
+                        if (pro.Id == pb.ProductId)
+                        {
+                            listTmp.Add(pro);
+                        }
+                    }
+                }
+            }
+            return listTmp;
+        }
+
+        //GetListCart
+        public async Task<List<CartItem>> GetListCartByID()
+        {
+            var cartItems = new List<CartItem>();
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(s);
+
+            var resCart = await client.GetAsync("api/CartItems");
+            var resultCart = resCart.Content.ReadAsStringAsync().Result;
+            cartItems = JsonConvert.DeserializeObject<List<CartItem>>(resultCart);
+            return cartItems;
+        }
+
+        public async Task<CartItem> GetListCartByIDProduct(int ID)
+        {
+            var cartItems = new CartItem();
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(s);
+
+            var resCart = await client.GetAsync("api/CartItems/"+ID);
+            var resultCart = resCart.Content.ReadAsStringAsync().Result;
+            cartItems = JsonConvert.DeserializeObject<CartItem>(resultCart);
+            return cartItems;
+        }
+
+        //getSumPriceCart
+        public async Task<List<MixCartProduct>> GetListMixCartProduct(int id)
+        {
+            var cartItems = new List<CartItem>();
+            var products = new List<Product>();
+            var mix = new List<MixCartProduct>();
+            products =await new GetData().GetListProductsAsync();
+            cartItems = await new GetData().GetListCartByID();
+            foreach(var ctr in cartItems)
+            {
+                //int sum = 0;
+                foreach(var pd in products)
+                {
+                    if(ctr.UserId==id && pd.Id == ctr.ProductId)
+                    {
+                        //sum = (int)(ctr.Quantity * pd.Variants[0].Price);
+                        var mixcp = new MixCartProduct(ctr, pd);
+                        mix.Add(mixcp);
+                    }
+                }
+            }
+            return mix;
+
+        }
+        // Total
+        public int GetTotalWithList(List<MixCartProduct> mix)
+        {
+            int total=0;
+            foreach(var item in mix)
+            {
+                total+=item.sum;
+            }
+            return total;
+        }
+        
+    
 
     }
 }

@@ -13,14 +13,24 @@ namespace WEB_Front.Pages.Detail
         public List<ProductVariant> DBProductVariants = new List<ProductVariant>();
         public List<Rating> rating = new List<Rating>();
 
-
+        public List<Product> DBProduct_tmp = new List<Product>();
+        public Product Product = new Product();
+        public Random rand = new Random();
+        public List<Product> DBProductList = new List<Product>();
+        public int tmpID=0;
         public async Task<IActionResult> OnGetAsync(int ProductID, int Idrate)
         {
             GetData gd = new GetData();
             DBProduct = await gd.GetProductsByIDAsync(ProductID);
             DBProductVariants = await gd.GetListProductVariantAsync();
+            DBProductList = await gd.GetListProductsAsync();
+            DBProduct_tmp = await gd.GetListProductsRandomByNumber(4);
+            this.tmpID=ProductID;
             return Page();
         }
+
+
+
         
         public async Task<IActionResult> OnPost(int ProductID)
         {
@@ -38,6 +48,12 @@ namespace WEB_Front.Pages.Detail
             rat.rating = i;
             SetData sd = new SetData();
             sd.SetListRating(rat);
+
+         
+
+
+
+
             return Page();
         }
     }

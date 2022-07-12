@@ -49,9 +49,9 @@ namespace API_Back.Controllers
         }
         [HttpGet]
         [Route("{id:Int}")]
-        public async Task<IActionResult> GetCategoriesById([FromRoute] int id)
+        public IActionResult GetCategoriesById([FromRoute] int id)
         {
-            var pd =await dt.Categories.FindAsync(id);
+            var pd = dt.Categories.Find(id);
             if (pd == null)
             {
                 return NotFound();
@@ -73,7 +73,28 @@ namespace API_Back.Controllers
             }
             return NotFound();
         }
-        
+        [HttpPut]
+        [Route("{Id:int}")]
+        public async Task<IActionResult> updateCategories([FromRoute] int Id, UpdateCategoriesRequest udp)
+        {
+            var ctr = await dt.Categories.FindAsync(Id);
+            if (ctr != null)
+            {
+                //ctr.Id = udp.Id;
+                //Id = add.Id,
+                ctr.Name = udp.Name;
+                ctr.Url = udp.Url;
+                ctr.Visible = udp.Visible;
+                ctr.Deleted = udp.Deleted;
+
+                ctr.Editing = udp.Editing;
+                ctr.IsNew = udp.IsNew;
+                await dt.SaveChangesAsync();
+                return Ok(ctr);
+            }
+            return NotFound();
+        }
+
 
     }
 }

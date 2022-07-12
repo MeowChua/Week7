@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using API_Back.Data;
+using API_Back.Models;
+using Projects.Shared;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,16 +21,16 @@ namespace API_Back.Controllers
             this.dt = dt;
         }
         [HttpGet]
-        public IActionResult GetCartItems()
+        public async Task<IActionResult> GetCartItems()
         {
-            return Ok(dt.CartItems.ToList());
+            return Ok(dt.CartItems.ToArray());
             //return View();
         }
         [HttpGet]
         [Route("{id:Int}")]
-        public IActionResult GetCartById([FromRoute] int id)
+        public async Task<IActionResult> GetCartById([FromRoute] int id)
         {
-            var pd = dt.CartItems.Find(id);
+            var pd =await dt.CartItems.FindAsync(id);
             if (pd == null)
             {
                 return NotFound();
@@ -39,7 +41,7 @@ namespace API_Back.Controllers
         }
         [HttpDelete]
         [Route("{id:Int}")]
-        public IActionResult Delete([FromRoute] int id)
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
             var ar = dt.CartItems.Find(id);
             if (ar != null)
@@ -47,6 +49,38 @@ namespace API_Back.Controllers
                 dt.Remove(ar);
                 dt.SaveChanges();
                 return Ok(ar);
+            }
+            return NotFound();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddCartItemsAsync(AddCartItemRequest add)
+        {
+
+            var cart = new CartItem()
+            {
+                UserId = add.UserId,
+                ProductId = add.ProductId,
+                ProductTypeId = add.ProductTypeId,
+                Quantity = 1
+            };
+            await dt.CartItems.AddAsync(cart);
+            await dt.SaveChangesAsync();
+            return Ok(cart);
+        }
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task<IActionResult> updateCartItem([FromRoute] int Id, UpdateCartItemRequest udp)
+        {
+            var cart = await dt.CartItems.FindAsync(Id);
+            if (cart != null)
+            {
+                cart.ProductId = udp.ProductId;
+                cart.ProductTypeId = udp.ProductTypeId;
+                cart.Quantity = udp.Quantity;
+                cart.UserId = udp.UserId;
+                
+                await dt.SaveChangesAsync();
+                return Ok(cart);
             }
             return NotFound();
         }

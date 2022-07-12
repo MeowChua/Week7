@@ -18,6 +18,7 @@
     <Folder Include="Pages\Shared\Components\Discription\" />
     <Folder Include="Pages\Shared\Components\Select\" />
     <Folder Include="Pages\ShopGird\" />
+    <Folder Include="Pages\Shared\Components\Price\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,5 +39,6 @@
     <None Remove="Pages\Shared\Components\Discription\" />
     <None Remove="Pages\Shared\Components\Select\" />
     <None Remove="Pages\ShopGird\" />
+    <None Remove="Pages\Shared\Components\Price\" />
   </ItemGroup>
 </Project>

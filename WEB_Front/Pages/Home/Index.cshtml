@@ -21,7 +21,7 @@
                     {
                         <div class="col-lg-3">
                             <div class="categories__item set-bg" data-setbg="@product.ImageUrl">
-                                <h5><a href="#">Mỹ phẩm high-end</a></h5>
+                                <h5><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=@count_category >Mỹ phẩm high-end</a></h5>
                             </div>
                         </div>
                         count_category++;
@@ -31,7 +31,7 @@
                     {
                         <div class="col-lg-3">
                             <div class="categories__item set-bg" data-setbg="@product.ImageUrl">
-                                <h5><a href="#">Chăm sóc da mặt</a></h5>
+                                <h5><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=@count_category >Chăm sóc da mặt</a></h5>
                             </div>
                         </div>
                         count_category++;
@@ -41,7 +41,7 @@
                     {
                         <div class="col-lg-3">
                             <div class="categories__item set-bg" data-setbg="@product.ImageUrl">
-                                <h5><a href="#">Trang điểm</a></h5>
+                                <h5><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=@count_category >Trang điểm</a></h5>
                             </div>
                         </div>
                         count_category++;
@@ -51,7 +51,7 @@
                     {
                         <div class="col-lg-3">
                             <div class="categories__item set-bg" data-setbg="@product.ImageUrl">
-                                <h5><a href="#">Chăm Sóc Cơ Thể</a></h5>
+                                <h5><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=@count_category >Chăm Sóc Cơ Thể</a></h5>
                             </div>
                         </div>
                         count_category++;
@@ -97,7 +97,7 @@
                                     <ul class="featured__item__pic__hover">
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-heart"></i></a></li>
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-retweet"></i></a></li>
-                                        <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
+                                        <li><a asp-page="/Cart/Index" asp-route-ProductID=@product.Id>><i class="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="featured__item__text">
@@ -137,7 +137,7 @@
                                     <ul class="featured__item__pic__hover">
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-heart"></i></a></li>
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-retweet"></i></a></li>
-                                        <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
+                                        <li><a asp-page="/Cart/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="featured__item__text">
@@ -177,7 +177,7 @@
                                     <ul class="featured__item__pic__hover">
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-heart"></i></a></li>
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-retweet"></i></a></li>
-                                        <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
+                                        <li><a asp-page="/Cart/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="featured__item__text">
@@ -217,7 +217,7 @@
                                     <ul class="featured__item__pic__hover">
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-heart"></i></a></li>
                                         <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-retweet"></i></a></li>
-                                        <li><a asp-page="/Detail/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
+                                        <li><a asp-page="/Cart/Index" asp-route-ProductID=@product.Id><i class="fa fa-shopping-cart"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="featured__item__text">
@@ -260,22 +260,7 @@
 </section>
 <!-- Featured Section End -->
 <!-- Banner Begin -->
-<div class="banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="banner__pic">
-                    <img src="~/images/anh3.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="banner__pic">
-                    <img src="~/images/anh4.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@await Component.InvokeAsync("Banner")
 <!-- Banner End -->
 <!-- Latest Product Section Begin -->
 <section class="latest-product spad">
@@ -286,18 +271,23 @@
                     <h4>Latest Products</h4>
                     <div class="latest-product__slider owl-carousel">
                         <div class="latest-prdouct__slider__item">
-                            @foreach (var product in Model.DBProduct)
+                            @foreach (var product in Model.l3_1)
                             {
-
-                                @if (@slide_count < 4 && product.Id > 30)
-                                {
                                     <a href="#" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             <img src="@product.ImageUrl" alt="">
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@product.Title</h6>
-                                            <span>@product.Variants[0].Price</span>
+                                            @foreach (var variant in Model.DBProductVariants)
+                        {
+                            @if (product.Id == variant.ProductId)
+                            {
+                                <span>@variant.Price</span>
+                                break;
+                            }
+                        }
+                                            
                                             <h5 class="rating">
                                                 @foreach (var ra in @Model.points)
                                                 {
@@ -321,24 +311,29 @@
                                         </div>
                                     </a>
 
-                                    slide_count++;
-                                    continue;
-                                }
+                                    
+                                
                             }
                         </div>
                         <div class="latest-prdouct__slider__item">
-                            @foreach (var product in Model.DBProduct)
+                            @foreach (var product in Model.l3_2)
                             {
 
-                                @if (@slide_count < 7 && product.Id > 17)
-                                {
+                                
                                     <a href="#" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             <img src="@product.ImageUrl" alt="">
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@product.Title</h6>
-                                            <span>@product.Variants[0].Price</span>
+                                            @foreach (var variant in Model.DBProductVariants)
+                        {
+                            @if (product.Id == variant.ProductId)
+                            {
+                                <span>@variant.Price</span>
+                                break;
+                            }
+                        }
                                             <h5 class="rating">
                                                 @foreach (var ra in @Model.points)
                                                 {
@@ -362,9 +357,8 @@
                                         </div>
                                     </a>
 
-                                    slide_count++;
-                                    continue;
-                                }
+                                    
+                                
                             }
                         </div>
                     </div>
@@ -375,18 +369,24 @@
                     <h4>Top Rated Products</h4>
                     <div class="latest-product__slider owl-carousel">
                         <div class="latest-prdouct__slider__item">
-                            @foreach (var product in Model.DBProduct)
+                            @foreach (var product in Model.l3_3)
                             {
 
-                                @if (@slide_count_col2 < 4 && product.Id > 23)
-                                {
+                                
                                     <a href="#" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             <img src="@product.ImageUrl" alt="">
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@product.Title</h6>
-                                            <span>@product.Variants[0].Price</span>
+                                            @foreach (var variant in Model.DBProductVariants)
+                        {
+                            @if (product.Id == variant.ProductId)
+                            {
+                                <span>@variant.Price</span>
+                                break;
+                            }
+                        }
                                             <h5 class="rating">
                                                 @foreach (var ra in @Model.points)
                                                 {
@@ -410,24 +410,29 @@
                                         </div>
                                     </a>
 
-                                    slide_count_col2++;
-                                    continue;
-                                }
+                                    
+                                
                             }
                         </div>
                         <div class="latest-prdouct__slider__item">
-                            @foreach (var product in Model.DBProduct)
+                            @foreach (var product in Model.l3_4)
                             {
 
-                                @if (@slide_count_col2 < 7 && product.Id > 8)
-                                {
+                               
                                     <a href="#" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             <img src="@product.ImageUrl" alt="">
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@product.Title</h6>
-                                            <span>@product.Variants[0].Price</span>
+                                            @foreach (var variant in Model.DBProductVariants)
+                        {
+                            @if (product.Id == variant.ProductId)
+                            {
+                                <span>@variant.Price</span>
+                                break;
+                            }
+                        }
                                             <h5 class="rating">
                                                 @foreach (var ra in @Model.points)
                                                 {
@@ -451,9 +456,8 @@
                                         </div>
                                     </a>
 
-                                    slide_count_col2++;
-                                    continue;
-                                }
+                                    
+                                
                             }
                         </div>
                     </div>
@@ -464,18 +468,24 @@
                     <h4>Review Products</h4>
                     <div class="latest-product__slider owl-carousel">
                         <div class="latest-prdouct__slider__item">
-                            @foreach (var product in Model.DBProduct)
+                            @foreach (var product in Model.l3_5)
                             {
 
-                                @if (@slide_count_col3 < 4 && product.Id > 18)
-                                {
+                                
                                     <a href="#" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             <img src="@product.ImageUrl" alt="">
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@product.Title</h6>
-                                            <span>@product.Variants[0].Price</span>
+                                            @foreach (var variant in Model.DBProductVariants)
+                        {
+                            @if (product.Id == variant.ProductId)
+                            {
+                                <span>@variant.Price</span>
+                                break;
+                            }
+                        }
                                             <h5 class="rating">
                                                 @foreach (var ra in @Model.points)
                                                 {
@@ -499,24 +509,29 @@
                                         </div>
                                     </a>
 
-                                    slide_count_col3++;
-                                    continue;
-                                }
+                                    
+                                
                             }
                         </div>
                         <div class="latest-prdouct__slider__item">
-                            @foreach (var product in Model.DBProduct)
+                            @foreach (var product in Model.l3_6)
                             {
 
-                                @if (@slide_count_col3 < 7 && product.Id > 37)
-                                {
+                                
                                     <a href="#" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             <img src="@product.ImageUrl" alt="">
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@product.Title</h6>
-                                            <span>@product.Variants[0].Price</span>
+                                            @foreach (var variant in Model.DBProductVariants)
+                        {
+                            @if (product.Id == variant.ProductId)
+                            {
+                                <span>@variant.Price</span>
+                                break;
+                            }
+                        }
                                             <h5 class="rating">
                                                 @foreach (var ra in @Model.points)
                                                 {
@@ -540,9 +555,7 @@
                                         </div>
                                     </a>
 
-                                    slide_count_col3++;
-                                    continue;
-                                }
+                                 
                             }
                         </div>
                     </div>
