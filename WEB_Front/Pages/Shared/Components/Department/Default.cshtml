@@ -1,7 +1,12 @@
+ @using Data;
+@{
+    GetData gd = new GetData();
+    var listCart = await gd.GetCategories();
+}
 <h4>Department</h4>
 <ul>
-    <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=1>Mỹ Phẩm High-Eng</a></li>
-    <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=2>Chăm sóc cơ thể</a></li>
-    <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=4>Chăm sóc da mặt</a></li>
-    <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=3>Trang điểm</a></li>
+    @foreach (var item in listCart)
+    {
+        <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=@item.Id>@item.Name</a></li>
+    }
 </ul>

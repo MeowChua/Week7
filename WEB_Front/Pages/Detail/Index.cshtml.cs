@@ -48,12 +48,6 @@ namespace WEB_Front.Pages.Detail
             rat.rating = i;
             SetData sd = new SetData();
             sd.SetListRating(rat);
-
-         
-
-
-
-
             return Page();
         }
     }

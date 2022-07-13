@@ -17,7 +17,7 @@ namespace WEB_Front.Pages.ShopGird
         public List<Product> l3_1 = new List<Product>();
         public List<Product> l3_2 = new List<Product>();
         public List<ProductVariant> DBProductVariants = new List<ProductVariant>();
-        public async Task<IActionResult> OnGetAsync()
+        public async Task<IActionResult> OnGetAsync(int cartProductID)
         {
             GetData gd = new GetData();
             DBProduct = await gd.GetListProductsAsync();
@@ -27,6 +27,10 @@ namespace WEB_Front.Pages.ShopGird
             points = gd.GetListPoints(DBProduct, DBRating);
             l3_1 = await gd.GetListProductsRandomByNumber(3);
             l3_2 = await gd.GetListProductsRandomByNumber(3);
+            var products = await gd.GetProductsByIDAsync(cartProductID);
+            var cartAdd = new CartItem(2,products.Id,1,1 );
+            SetData sd = new SetData();
+            sd.SetListCart(cartAdd);
             return Page();
         }
     }

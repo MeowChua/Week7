@@ -81,7 +81,7 @@ namespace WEB_Front.Data
             return Ps;
         }
         //GetListCategories
-        public async Task<List<Category>> GetCategories(List<Category> DBCategories)
+        public async Task<List<Category>> GetCategories()
         {
             var DBcategory = new List<Category>();
             var client = new HttpClient();
@@ -117,7 +117,8 @@ namespace WEB_Front.Data
 
             foreach (var pb in products)
             {
-                if (pb.CategoryId == id) {
+                if (pb.CategoryId == id)
+                {
                     productsByCategoryID.Add(pb);
                 }
             }
@@ -128,7 +129,8 @@ namespace WEB_Front.Data
         {
             var listTmp = new List<Product>();
             var Products = new Product();
-            for (int i = 0; i < id; i++) {
+            for (int i = 0; i < id; i++)
+            {
 
                 Random rand = new Random();
                 int count = rand.Next(1, 41);
@@ -189,7 +191,7 @@ namespace WEB_Front.Data
             var client = new HttpClient();
             client.BaseAddress = new Uri(s);
 
-            var resCart = await client.GetAsync("api/CartItems/"+ID);
+            var resCart = await client.GetAsync("api/CartItems/" + ID);
             var resultCart = resCart.Content.ReadAsStringAsync().Result;
             cartItems = JsonConvert.DeserializeObject<CartItem>(resultCart);
             return cartItems;
@@ -201,14 +203,14 @@ namespace WEB_Front.Data
             var cartItems = new List<CartItem>();
             var products = new List<Product>();
             var mix = new List<MixCartProduct>();
-            products =await new GetData().GetListProductsAsync();
+            products = await new GetData().GetListProductsAsync();
             cartItems = await new GetData().GetListCartByID();
-            foreach(var ctr in cartItems)
+            foreach (var ctr in cartItems)
             {
                 //int sum = 0;
-                foreach(var pd in products)
+                foreach (var pd in products)
                 {
-                    if(ctr.UserId==id && pd.Id == ctr.ProductId)
+                    if (ctr.UserId == id && pd.Id == ctr.ProductId)
                     {
                         //sum = (int)(ctr.Quantity * pd.Variants[0].Price);
                         var mixcp = new MixCartProduct(ctr, pd);
@@ -222,15 +224,25 @@ namespace WEB_Front.Data
         // Total
         public int GetTotalWithList(List<MixCartProduct> mix)
         {
-            int total=0;
-            foreach(var item in mix)
+            int total = 0;
+            foreach (var item in mix)
             {
-                total+=item.sum;
+                total += item.sum;
             }
             return total;
         }
-        
-    
+        //length list cart
+        public async Task<int> LengthListCart(int id)
+        {
+            var countItem = 0;
+            var list = await new GetData().GetListCartbyUserID(id);
+            foreach (var cart in list)
+            {
+                countItem++;
+            }
+            return countItem;
+        }
+
 
     }
 }

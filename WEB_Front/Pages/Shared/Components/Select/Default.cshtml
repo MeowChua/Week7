@@ -1,4 +1,10 @@
-﻿<!-- Hero Section Begin -->
+﻿
+@using Data;
+@{
+    GetData gd = new GetData();
+    var listCart = await gd.GetCategories();
+}
+<!-- Hero Section Begin -->
 <section class="hero">
     <div class="container">
         <div class="row">
@@ -9,10 +15,10 @@
                         <span>All departments</span>
                     </div>
                     <ul>
-                        <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=1>Mỹ Phẩm High-End</a></li>
-                        <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=2>Chăm Sóc Da Mặt</a></li>
-                        <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=4>Chăm Sóc Cơ Thể</a></li>
-                        <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=3>Trang Điểm</a></li>
+                        @foreach (var item in listCart)
+                        {
+                                   <li><a asp-page="/ShopGird_ID/index" asp-route-CategoryID=@item.Id>@item.Name</a></li>
+                        }
                     </ul>
                 </div>
             </div>

@@ -19,7 +19,7 @@ namespace WEB_Front.Pages.Home
         public List<Product> l3_5 = new List<Product>();
         public List<Product> l3_6 = new List<Product>();
         public List<ProductVariant> DBProductVariants = new List<ProductVariant>();
-        public async Task<IActionResult> OnGetAsync()
+        public async Task<IActionResult> OnGetAsync(int cartProductID)
         {
             GetData gd = new GetData();
             DBProduct =await gd.GetListProductsAsync();
@@ -32,6 +32,10 @@ namespace WEB_Front.Pages.Home
             l3_4 = await gd.GetListProductsRandomByNumber(3);
             l3_5 = await gd.GetListProductsRandomByNumber(3);
             l3_6 = await gd.GetListProductsRandomByNumber(3);
+            var products = await gd.GetProductsByIDAsync(cartProductID);
+            var cartAdd = new CartItem(2,products.Id,1,1 );
+            SetData sd = new SetData();
+            sd.SetListCart(cartAdd);
             return Page();
         }
     }

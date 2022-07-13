@@ -1,4 +1,14 @@
-﻿<!-- Page Preloder -->
+﻿@using Data
+@{
+    var count =0;
+    var userID = 2;
+    var sum=0;
+    GetData gd = new GetData();
+    count = await gd.LengthListCart(userID);
+    var DBMixCart = await gd.GetListMixCartProduct(userID);
+    sum = gd.GetTotalWithList(DBMixCart);
+}
+<!-- Page Preloder -->
 <div id="preloder">
     <div class="loader"></div>
 </div>
@@ -14,7 +24,7 @@
             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
         </ul>
-        <div class="header__cart__price">item: <span>$150.00</span></div>
+        <div class="header__cart__price">item: <span>@sum</span></div>
     </div>
     <div class="humberger__menu__widget">
         <div class="header__top__right__language">
@@ -44,20 +54,20 @@
                 </ul>
             </li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a asp-area="" asp-page="/Contact/contact">Contact</a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
     <div class="header__top__right__social">
-        <a href="#"><i class="fa fa-facebook"></i></a>
+       <a href="https://www.facebook.com/HmMeow0907/"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        <a href="https://www.instagram.com/_h.mm.c_/"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-pinterest"></i></a>
     </div>
     <div class="humberger__menu__contact">
         <ul>
-            <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-            <li>Free Shipping for all Order of $99</li>
+            <li><i class="fa fa-envelope"></i> minhcanhbainhdai@gmail.com</li>
+            <li>Miễn Phí Giao Hang Từ Đơn Trên 200K</li>
         </ul>
     </div>
 </div>
@@ -122,7 +132,7 @@
                             </ul>
                         </li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a asp-area="" asp-page="/Contact/contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -130,9 +140,9 @@
                 <div class="header__cart">
                     <ul>
                         <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                        <li><a asp-page="/Cart/Index"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        <li><a asp-page="/Cart/Index"><i class="fa fa-shopping-bag"></i> <span>@count</span></a></li>
                     </ul>
-                    <div class="header__cart__price">item: <span>$150.00</span></div>
+                    <div class="header__cart__price">item: <span>@sum</span></div>
                 </div>
             </div>
         </div>

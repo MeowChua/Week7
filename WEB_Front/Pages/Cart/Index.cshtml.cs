@@ -25,13 +25,13 @@ namespace WEB_Front.Pages.Cart
             cart.ProductId=ProductID;
             cart.Quantity=1;
             cart.ProductTypeId = 1;
-            cart.UserId=1; // UserID
+            cart.UserId=2; // UserID
             SetData sd = new SetData();
             sd.SetListCart(cart);
-            DBProduct = await gd.GetListCartbyUserID(1);
+            DBProduct = await gd.GetListCartbyUserID(2);
             DBCartItem = await gd.GetListCartByID();
-            DBMixCart = await gd.GetListMixCartProduct(1);
-            this.userid = 1;//UserID;
+            DBMixCart = await gd.GetListMixCartProduct(2);
+            this.userid = 2;//UserID;
             this.sum=gd.GetTotalWithList(DBMixCart);
             return Page();
         }

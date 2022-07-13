@@ -28,7 +28,6 @@ namespace API_Back.Controllers
         public async Task<IActionResult> GetProducts()
         {
             return Ok(await dt.Products.Include(p => p.Images).Include(q => q.Variants).ToArrayAsync());
-            //return View();
         }
         [HttpGet]
         [Route("{id:Int}")]
