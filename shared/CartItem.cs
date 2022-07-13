@@ -8,6 +8,13 @@ namespace Projects.Shared
 {
     public class CartItem
     {
+        public CartItem(int userID, int ProductID, int ProductTypeId, int Quantity){
+            this.ProductId=ProductID;
+            this.Quantity=Quantity;
+            this.UserId=userID;
+            this.ProductTypeId=ProductTypeId;
+        }
+        public CartItem(){}
         public int UserId { get; set; }
         public int ProductId { get; set; }
         public int ProductTypeId { get; set; }
